@@ -1,16 +1,28 @@
 # CNN Image Classifier Mini‑Project
 
-A simple CNN‑based image classifier built in JupyterLab using Python and pytorch/Keras.
+A simple CNN‑based image classification model built using Python, pytorch/Keras, and JupyterLab. This project is meant to practice deep learning concepts like CNN architecture, image preprocessing, and model evaluation.
 
-## What it does
-Classify images into [8] classes using a Convolutional Neural Network.
+## 📌 Problem Statement
+Classify images into [8] categories using a Convolutional Neural Network.
 
-## Technologies used
+## 🛠️ Technologies Used
 - Python
 - pytorch / Keras
-- NumPy, Matplotlib, Jupyter
+- NumPy, Matplotlib
+- JupyterLab
 
-## How to run
-1. Clone this repo.
-2. Install packages: `pip install -r requirements.txt`.
-3. Open the notebook in JupyterLab and run all cells.
+## 🧩 Model Architecture
+- Conv2D layers for feature extraction
+- MaxPooling layers for downsampling
+- Dense layers for final classification
+- Activation functions: ReLU (hidden), softmax (output)
+- Optional: Dropout for regularization
+
+## 📊 Results
+- Validation accuracy: `~74%` after [10] epochs
+
+## 📦 How to Run
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/ml-cnn-image-classifier-[dataset].git
+   cd ml-cnn-image-classifier-[dataset]
